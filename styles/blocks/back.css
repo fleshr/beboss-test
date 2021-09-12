@@ -1,0 +1,39 @@
+.back {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  margin-bottom: 32px;
+}
+
+.back__link {
+  flex: none;
+  width: 60px;
+  height: 60px;
+  margin-right: 16px;
+  background: url(../../img/medal.svg) no-repeat;
+  font-size: 0;
+}
+
+.back__info {
+  margin: 0;
+}
+
+.back__info span {
+  display: block;
+}
+
+.back__info-subtitle {
+  font-weight: 700;
+}
+
+@media screen and (min-width: 1152px) {
+  .back {
+    padding-left: 0;
+    margin-bottom: 24px;
+  }
+
+  .back__info {
+    font-size: 18px;
+    line-height: 1.35;
+  }
+}

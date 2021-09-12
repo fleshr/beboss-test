@@ -1,0 +1,30 @@
+.about {
+  margin-bottom: 32px;
+}
+
+.about__title {
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.about__text {
+  margin-bottom: 20px;
+}
+
+.about__text p {
+  margin-bottom: 8px;
+}
+
+.about__link {
+  font-weight: 700;
+}
+
+@media screen and (min-width: 1152px) {
+  .about__title {
+    font-size: 24px;
+  }
+}

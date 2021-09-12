@@ -1,0 +1,134 @@
+.write-us {
+  padding: 24px;
+  background: #ECEEF2;
+  border-radius: 16px;
+}
+
+.write-us__agent {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.write-us__agent-info {
+  margin-left: 8px;
+}
+
+.write-us__agent-info span {
+ display: block;
+}
+
+.write-us__form {
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.write-us__form input {
+  display: block;
+  width: 100%;
+  padding: 8px 12px 8px 43px;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.write-us__form input::placeholder {
+  color: rgba(0, 0, 0, 0.52);
+}
+
+.write-us__form input[type="text"] {
+  background-image: url(../../img/user.svg);
+  background-repeat: no-repeat;
+  background-position: 15px 50%;
+}
+
+.write-us__form input[type="email"] {
+  background-image: url(../../img/letter.svg);
+  background-repeat: no-repeat;
+  background-position: 13px 50%;
+}
+
+.write-us__form input[type="tel"] {
+  background-image: url(../../img/phone.svg);
+  background-repeat: no-repeat;
+  background-position: 17px 50%;
+}
+
+.write-us__form textarea {
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 8px;
+  border-radius: 6px;
+}
+
+.write-us__form button {
+  display: block;
+  width: 100%;
+  padding: 13px;
+  background-color: #0D870D;
+  border-radius: 6px;
+  border: 0;
+  text-align: center;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.write-us__form p {
+  margin: 0;
+  margin-top: 16px;
+  padding-left: 42px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+  background-image: url(../../img/safe.svg);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  background-size: 27px 37px;
+}
+
+.write-us__discuss h3 {
+  text-align: center;
+  font-size: 16px;
+}
+
+.write-us__list li {
+  padding-left: 32px;
+  background-image: url(../../img/check.svg);
+  background-repeat: no-repeat;
+  background-position: 3px 6px;
+  margin-bottom: 16px;
+}
+
+.write-us__list li:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 1152px) {
+  .write-us__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .write-us__form,
+  .write-us__discuss {
+    width: calc(50% - 16px);
+  }
+
+  .write-us__form {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+  }
+
+  .write-us__form p {
+    padding-left: 50px;
+    background-size: 35px 37px;
+  }
+
+  .write-us__discuss h3 {
+    text-align: left;
+  }
+}

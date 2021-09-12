@@ -1,0 +1,31 @@
+.description {
+  margin-bottom: 32px;
+}
+
+.description__title {
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.description__text {
+  margin-bottom: 20px;
+}
+
+.description__text p {
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 1152px) {
+  .description__title {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+
+  .description__text {
+    margin-bottom: 16px;
+  }
+}
